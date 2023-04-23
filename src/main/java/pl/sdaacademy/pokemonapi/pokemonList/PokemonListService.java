@@ -7,7 +7,6 @@ import java.util.List;
 
 @Service
 public class PokemonListService {
-
     private final FetchPokemonListUseCase pokemonListUseCase;
     private final PokemonListItemRepository pokemonListItemRepository;
 
@@ -26,3 +25,4 @@ public class PokemonListService {
         }
     }
 }
+
